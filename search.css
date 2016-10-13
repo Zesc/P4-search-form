@@ -1,11 +1,11 @@
 body{
-    background-color: #c03426;
+    background-color: whitesmoke;
 }
 
 .container{
     margin-left: 35%;
     margin-right: 35%;
-    background-color: #12124b;
+    background-color: #222288;
     padding: 30px;
     margin-top: 20px;
     border-radius: 3px;
@@ -57,4 +57,26 @@ button{
 
 button:hover{
     background-color: #ff9a03;
+}
+
+.back-to-main{
+    position: relative;
+    clear: both;
+    text-align: center;
+    top: 30px;
+    margin-bottom: 20px;
+}
+.back-to-main > a{
+    text-decoration: none;
+    color: #d40000;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.back-to-main > a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
 }
